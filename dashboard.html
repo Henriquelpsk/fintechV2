@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dashboard</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<link href="./assets/css/createdClass.css" rel="stylesheet" type="text/css">
+	<link href="./assets/css/editedClass.css" rel="stylesheet" type="text/css">
+	<link href="./assets/css/createdVar.css" rel="stylesheet" type="text/css">
+	<link href="./assets/css/fonts.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="container-fluid h-100">
+		<div class="row h-100 second-bg">
+
+			<div class="container-teste">
+				<div class="row pt-4 pb-5 headerAlign d-flex main-bg">
+
+					<div class="col-10 ps-0">
+						<div class="row">
+							<img src="./assets/img/unknown.png" alt="perfil" class="fit col-4 ">
+							<div class="col-8 mt-2">
+								<p class="mb-0 txt-white">Olá, Henrique!</p>
+								<p class="mb-0 txt-white fs-10">Editar perfil</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-1 pe-0 ms-2 mt-3">
+						<img src="./assets/img/Vector.svg" alt="sino">
+					</div>
+				</div>
+			</div>
+
+				<div class="alinhamento">
+					<div class="row card mt-3 ms-3 me-3 mt-n4">
+						<div>
+							<p class="mb-0 mt-3 txt-grey">Saldo geral</p>
+							<p class="fs-21 fw-bold pb-2 border-bottom txt-purple">R$ 1651,00</p>
+						</div>
+						<div>
+							<p class="mt-2 mb-3">Minhas contas</p>
+						</div>
+						<div class="row">
+							<div class="col-2">
+								<img class="bandeira" src="./assets/img/bandeiraBanco/carteiraSimbolo.svg">
+							</div>
+							<div class="col-6 pe-0">
+								<p class="mb-0">Banco do brasil</p>
+								<p class="fs-7 txt-grey">Ag.0247 C/C 18592-9</p>
+							</div>
+							<div class="col-4 ps-2 pe-0 text-end">
+								<p class="txt-purple">R$ 3.027,00</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-2">
+								<img class="bandeira" src="./assets/img/bandeiraBanco/carteiraSimbolo2.svg">
+							</div>
+							<div class="col-6 pe-0">
+								<p class="mb-0">Banco Santander</p>
+								<p class="fs-7 txt-grey">Ag.2458 C/C 1475844-0</p>
+							</div>
+							<div class="col-4 ps-2 pe-0 text-end">
+								<p class="txt-red">R$ -39,47</p>
+							</div>
+						</div>
+
+						<div class="d-grid gap-2">
+							<button type="button" class="btn btn-primary mb-3 mt-3" id="botao-gerenciar">Gerenciar Contas</button>
+						</div>
+					</div>
+
+					<div class="row ms-3 me-3 mt-3 mb-0">
+						<button type="button" class="btn btn-info mb-3">Cadastrar despesa ou receita</button>
+					</div>
+
+					<div class="row card mt-0 ms-3 me-3">
+						<div>
+							<p class="mt-3">Cartões de crédito</p>
+						</div>
+						<div class="row">
+							<div class="col-2">
+								<img class="bandeira" src="./assets/img/bandeiraBanco/carteiraSimbolo3.svg">
+							</div>
+							<div class="col-6 pe-0">
+								<p class=" mb-0">Cartão Nubank</p>
+								<p class="fs-7 txt-grey">**** **** **** .9503</p>
+							</div>
+							<div class="col-4 ps-2 pe-0 text-end">
+								<p class="txt-orange">R$ 564,00</p>
+							</div>
+						</div>
+						<div class="d-grid gap-2">
+							<button type="button" class="btn btn-primary mb-3 mt-3">Gerenciar Cartões</button>
+						</div>
+					</div>
+
+					<div class="row card mt-3 ms-3 me-3">
+						<div class="row mt-3 ps-25">
+							<img class="bandeira p-0 col-2" src="./assets/img/Ícone.svg" alt="icone de categoria">
+							<p class="mb-0 col-10">Categorias</p>
+							<div class="row">
+								<p class="mt-n2 ps-5 fs-12 txt-grey">Cria categorias para gernciar melhor suas despesas e receitas</p>
+							</div>
+						</div>
+						<div class="d-grid gap-2">
+							<button type="button" class="btn btn-primary mb-3 mt-3">Criar categoria</button>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="spacing"></div>
+
+
+			<nav class="nav-container fixado">
+				<div class="mt-4 main-bg d-flex justify-content-evenly alinhamento">
+					<img class="nav-img-size" src="./assets/img/nav/house.svg">
+					<img class="nav-img-size" src="./assets/img/nav/plus.svg">
+					<img class="nav-img-size" src="./assets/img/nav/graph.svg">
+					<img class="nav-img-size" src="./assets/img/nav/table.svg">
+				</div>
+			</nav>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+		crossorigin="anonymous"></script>
+		<script src="./assets/js/dashboard.js"></script>
+</body>
+
+</html>
