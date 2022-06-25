@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
@@ -10,8 +10,8 @@
 	<link href="./assets/css/createdClass.css" rel="stylesheet" type="text/css">
 	<link href="./assets/css/editedClass.css" rel="stylesheet" type="text/css">
 	<link href="./assets/css/createdVar.css" rel="stylesheet" type="text/css">
-	<link href="./assets/css/fonts.css" rel="fonts" type="text/css">
-	<title>Adicionar Conta</title>
+	<link href="./assets/css/fonts.css" rel="stylesheet" type="text/css">
+	<title>Relatório</title>
 </head>
 
 <body>
@@ -20,23 +20,13 @@
 			<div class="container-conta ps-4 pe-4">
 				<div class="alinhamento d-flex justify-content-between ps-2 pe-2 mt-3">
 					<a href="dashboard.html"><img class="nav-img-size" src="./assets/img/account/return.svg"></a>
-					<h1 class="fs-21 txt-white pe-2">Adicionar Conta</h1>
+					<h1 class="fs-21 txt-white pe-2">Relatório</h1>
 				</div>
 
 				<div class="alinhamento">
 					<div class="card mt-5">
 						<form class="ps-2 pe-2">
-							<label for="nome" class="row ms-2 mb-3 mt-3">Nome da conta</label>
-							<input id="nome" class="form-control" type="text" placeholder="Digite o nome da conta">
-							<label for="agencia" class="row ms-2 mb-3 mt-3">Agência</label>
-							<input id="agencia" class="form-control" type="text" placeholder="0000	">
-							<label for="conta" class="row ms-2 mb-3 mt-3">Conta</label>
-							<input id="conta" class="form-control" type="text" placeholder="0000000-0">
-							<label for="saldo" class="row ms-2 mb-3 mt-3">Saldo da conta</label>
-							<input id="saldo" class="form-control mb-3" type="text" placeholder="Digite o valor do saldo">
-							<div class="d-grid gap-2">
-								<button type="button" id="botao-cria-conta" class="btn btn-primary mt-3 mb-3">Criar Conta</button>
-							</div>
+
 						</form>
 					</div>
 				</div>
@@ -48,15 +38,17 @@
 		<div class="mt-4 main-bg d-flex justify-content-evenly alinhamento">
 			<a href="dashboard.html"><img class="nav-img-size" src="./assets/img/nav/house.svg"></a>
 			<a href="register.html"><img class="nav-img-size" src="./assets/img/nav/plus.svg"></a>
-			<a href="relatorio.html"><img class="nav-img-size" src="./assets/img/nav/graph.svg"></a> 
+			<a href="relatorio.html"><img class="nav-img-size" src="./assets/img/nav/graph.svg"></a>
 			<a href="extrato.html"><img class="nav-img-size" src="./assets/img/nav/table.svg"></a>
 		</div>
 	</nav>
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-		crossorigin="anonymous"></script>
-		<script src="./assets/js/account.js"></script>
-</body>
+	<body>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+			crossorigin="anonymous"></script>
+		<script src="./assets/js/relatorio.js"></script>
+	</body>
 
 </html>
